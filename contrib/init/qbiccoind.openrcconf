@@ -1,0 +1,26 @@
+# /etc/conf.d/qbiccoind: config file for /etc/init.d/qbiccoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/qbiccoin/qbiccoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/qbiccoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/qbiccoind.pid"
+
+# Where to write qbiccoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/qbiccoind"
+
+# User and group to own qbiccoind process
+#BITCOIND_USER="qbiccoin"
+#BITCOIND_GROUP="qbiccoin"
+
+# Path to qbiccoind executable
+#BITCOIND_BIN="/usr/bin/qbiccoind"
+
+# Nice value to run qbiccoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

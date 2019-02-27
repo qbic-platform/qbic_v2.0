@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=QBICcoin
+Comment=QBICcoin P2P Cryptocurrency
+Comment[fr]=QBICcoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=QBICcoin, eşten eşe kriptografik sanal para birimi
+Exec=qbiccoin-qt %u
+Terminal=false
+Type=Application
+Icon=qbiccoin128
+MimeType=x-scheme-handler/qbiccoin;
+Categories=Office;Finance;

@@ -1,0 +1,2 @@
+usr/local/bin/qbiccoind usr/bin
+usr/local/bin/qbiccoin-cli usr/bin
